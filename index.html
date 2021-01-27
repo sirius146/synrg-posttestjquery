@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style> 
+        #panel, #flip, #flipdown {
+          padding: 5px;
+          text-align: center;
+          background-color: #4ee9cf;
+          border: solid 1px #c3c3c3;
+        }
+        
+        #panel {
+          padding: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1> JQUERY SELECTORS, HIDE AND SHOW & TOGGLE </h1>
+    <p> Paragraf 1</p>
+    <p> Paragraf 2</p>
+    <p id="test"> Paragraf 3 dengan id test</p>
+    <p class="test"> Paragraf 4 dengan class testclass</p>
+
+    <button id="button1"> Klik Untuk menyembunyikan semua elemen "P" </button> <br>
+    <button id="buttonshow"> Klik Untuk menampilkan kembali semua elemen "P" </button> <br>
+    <button id="button2"> Klik Untuk menyembunyikan semua elemen dengan id="test" </button> <br>
+    <button id="button3"> Klik Untuk menyembunyikan semua elemen dengan class="testclass" </button> <br>
+    <button id="button4"> Klik Untuk menyembunyikan button ini </button> <br>
+    <button id="buttontoggle"> Klik 2xUntuk mencoba efek toggle </button>
+
+    <h1> JQUERY EVENTS </h1>
+    <p class="oneklik"> Klik aku maka aku akan menghilang</p>
+    <p class="oneklik"> Coba klik lagi aku :3 </p>
+    <span> ------------------------------------- </span>
+    <p class="doubleklik"> KLik aku 2x maka aku akan menghilang</p>
+    <p class="doubleklik"> Coba klik 2x lagi aku :3 </p>
+    <span> ------------------------------------- </span>
+    <p id="hover">Arahkan Mouse mu ke area paragraf ini</p>
+    
+    <span> ------------------------------------- </span> <br>
+    <input type="text" class="box" placeholder="arahkan mouse mu kesini"><br>
+    <input type="text" class="box" placeholder="lalu kesini">
+
+    <h1> JQUERY SLIDE</h1>
+    <div id="flip">Click to slide up panel</div>
+    <div id="flipdown">Click to slide down panel</div>
+    <div id="panel">HALO KAMUUUUU!</div>
+
+    <h1> JQUERY ANIMASI</h1>
+    
+    <button id="buttonAnimasi">KLik aku maka kotak akan bergerak</button> <br> <br>
+    <div style="background:#9edff0;height:100px;width:100px;position:absolute;"></div>
+    <br> <br> <br> <br> <br>
+    <h1> DAN LAIN LAIN</h1>
+
+    <script src="./main.js"></script>
+</body>
+</html>
